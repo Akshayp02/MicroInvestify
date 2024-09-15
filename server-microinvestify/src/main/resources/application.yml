@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: server-microinvestify
+
+  datasource:
+    url: ${DB_URL}
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+paypal:
+  client:
+    id: ${PAYPAL_CLIENT_ID} #AXGu4IrjHle6HPYRblHsAiNaVRYqbZU7Lw6yNxQLBBocLyX6XzyV5AV1sPFD0DB54lQBJ9E8ifVWrsty //
+    secret: ${PAYPAL_CLIENT_SECRET} # ELNqLuNYLgq69X4PCrkXNcJN4RVFj_AIKDhFyD5ndBG7S8w0XrkxINIWtm4GVe4mJ7NcUnvymDI2ObWG //
+  mode: sandbox
