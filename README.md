@@ -9,13 +9,20 @@
 <br>
 a cutting-edge micro-investment platform designed to make investing accessible and engaging for everyone. This platform allows users to invest small amounts in stocks, ETFs, and cryptocurrencies with real-time tracking and personalized recommendations. Enjoy interactive investment animations, real-time data integration, and secure transactions through PayPal.
 
-#🚀 Features
+# 🚀 Features
 
 - **Micro-Investments**:     Invest small amounts in a diverse range of assets.
 - **Real-Time Tracking**:    Monitor your investments with live data from Alpha Vantage.
 - **Personalized Recommendations**:    Get tailored investment suggestions.
 - **Secure Payments**:    Handle transactions with confidence using PayPal.
 - **Interactive Animations**:    Visualize your investments with engaging animations.
+
+## Project Demo 
+
++ For detailed screenshots of the application, visit our [Screenshots Gallery](screenshots.md).
++ Watch the demo video to see MicroInvestify in action: [Project Demo](https://youtu.be/XTxtFoLZuvk?si=tDA7-OXHlWmofan7)
+
+
 
 ##  🛠️ Tech Stack
 *  [React.js](https://legacy.reactjs.org/docs/getting-started.html)
