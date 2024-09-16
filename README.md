@@ -1,14 +1,21 @@
-# MicroInvestify: A Full-Stack Micro-Investment Platform
+# MicroInvestify: A Web-Based Micro-Investment Platform
 
-Welcome to **MicroInvestify**, a cutting-edge micro-investment platform designed to make investing accessible and engaging for everyone. Our platform allows users to invest small amounts in stocks, ETFs, and cryptocurrencies with real-time tracking and personalized recommendations. Enjoy interactive investment animations, real-time data integration, and secure transactions through PayPal.
+
+Welcome to **MicroInvestify**!🎊
+<br>
+
+![image](https://github.com/user-attachments/assets/d920ffef-7d86-410f-a289-126c8eb80e47)
+
+<br>
+a cutting-edge micro-investment platform designed to make investing accessible and engaging for everyone. This platform allows users to invest small amounts in stocks, ETFs, and cryptocurrencies with real-time tracking and personalized recommendations. Enjoy interactive investment animations, real-time data integration, and secure transactions through PayPal.
 
 ## Features
 
-- **Micro-Investments**: Invest small amounts in a diverse range of assets.
-- **Real-Time Tracking**: Monitor your investments with live data from Alpha Vantage.
-- **Personalized Recommendations**: Get tailored investment suggestions.
-- **Secure Payments**: Handle transactions with confidence using PayPal.
-- **Interactive Animations**: Visualize your investments with engaging animations.
+- **Micro-Investments**:     Invest small amounts in a diverse range of assets.
+- **Real-Time Tracking**:    Monitor your investments with live data from Alpha Vantage.
+- **Personalized Recommendations**:    Get tailored investment suggestions.
+- **Secure Payments**:    Handle transactions with confidence using PayPal.
+- **Interactive Animations**:    Visualize your investments with engaging animations.
 
 ## Tech Stack
 
@@ -17,44 +24,24 @@ Welcome to **MicroInvestify**, a cutting-edge micro-investment platform designed
 - **APIs**: Alpha Vantage (for stock and crypto data), PayPal (for payment gateway)
 - **Version Control**: Git, GitHub
 
-## Project Architecture
+<h2 style="font-size: 24px; color: #2c3e50; text-align: center; margin-bottom: 20px;">System Architecture</h2>
+<p style="font-size: 12px; line-height: 1.6; color: #34495e; text-align: justify; margin-bottom: 20px;">
+    The diagram below outlines the overall architecture of the <strong>Microinvestify</strong>. 
+    The platform is designed to enable users to invest in stocks and cryptocurrencies with real-time data integration. 
+    The frontend, developed using <strong>React</strong>, interacts with the backend powered by <strong>Spring Boot</strong>, 
+    allowing seamless data flow and user authentication. 
+    <br><br>
+    The backend communicates with external services such as the <strong>Alpha Vantage API</strong> for fetching live stock and 
+    cryptocurrency data, and <strong>PayPal API</strong> for secure payment processing. The <strong>MySQL</strong> database is 
+    used to store user information, investment data, and transaction history.
+    <br><br>
+    This architecture ensures a scalable and efficient system for handling micro-investments, real-time market trends, 
+    and secure transactions.
+</p>
 
-### High-Level Architecture
+![Microinvestify block correct](https://github.com/user-attachments/assets/435a8bf0-da2d-456c-b278-2d59b145140c)
 
-1. **Frontend (React.js)**:
-   - **Landing Page**: Engaging introduction and call-to-action.
-   - **Dashboard**: Overview of investments and quick actions.
-   - **My Portfolio**: Detailed view of investments with charts.
-   - **Investment Suggestions**: Personalized recommendations and news.
-   - **Market Trends**: Real-time data and interactive charts.
-   - **Education Page**: Educational resources and progress tracking.
 
-2. **Backend (Spring Boot)**:
-   - **API Layer**: Handles requests from the frontend, processes them, and communicates with the database.
-   - **Service Layer**: Contains business logic for handling investments, transactions, and data retrieval.
-   - **Data Access Layer**: Manages interactions with the MySQL database.
-
-3. **APIs**:
-   - **Alpha Vantage**: Fetches real-time and historical stock and cryptocurrency data.
-   - **PayPal**: Manages secure transactions for investments and withdrawals.
-
-### Blueprint
-
-#### Frontend
-1. **React Application**: Components for each page (Landing, Dashboard, Portfolio, etc.).
-2. **State Management**: Redux for handling application state.
-3. **Styling**: Tailwind CSS for responsive and modern design.
-4. **Animations**: Interactive animations for investment visualizations.
-
-#### Backend
-1. **Spring Boot Application**: Provides RESTful APIs for frontend interaction.
-2. **Security**: Spring Security for user authentication and authorization.
-3. **Database**: MySQL for storing user data and investment information.
-4. **Services**: Handles business logic and integrates with external APIs.
-
-#### Integration
-1. **Alpha Vantage**: Integrated for real-time stock and crypto data retrieval.
-2. **PayPal**: Integrated for secure payment processing.
 
 ## Getting Started
 
